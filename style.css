@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #2b2d42;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 2rem;
+  background-color: #edf2f4;
+  border-radius: 1rem;
+  width: 35vw;
+  min-height: 65vh;
+}
+
+form select,
+button,
+input {
+  margin: 1rem 0 1rem 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.select-container select {
+  font-size: 1rem;
+  width: auto;
+  background-color: transparent;
+}
+
+form {
+  margin-top: 4rem;
+}
+
+form input {
+  font-size: 1.15rem;
+  height: 2rem;
+  border: 1px solid lightgray;
+  padding-left: 0.5rem;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+
+.dropDown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+}
+
+.select-container img {
+  max-width: 2rem;
+}
+
+.msg {
+  margin: 2rem 0 2rem 0rem;
+}
+
+form button {
+  height: 35px;
+  background-color: #2b3169;
+  color: #edf2f4;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.amount p {
+  font-size: 19px;
+}
+.from,
+.to p {
+  font-size: 18px;
+}
+
+form button:hover {
+  /* border: 2px solid #4c67df; */
+  box-shadow: 3px 1px 3px 1px #1b1c22;
+}
+.dropDown i {
+  margin-top: 1.15rem;
+  font-size: 1.25rem;
+}
+.msg {
+  text-align: center;
+  font-size: 1.25rem;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
